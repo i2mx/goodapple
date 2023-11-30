@@ -23,10 +23,10 @@ while True:
             print(color2text(pixel), end="")
         print()
 
-    # time.sleep(0.01)
+    time.sleep(0.03)
 
-    cv2.namedWindow("good apple", cv2.WINDOW_NORMAL)
-    cv2.imshow("good apple", frame)
+    # cv2.namedWindow("good apple", cv2.WINDOW_NORMAL)
+    # cv2.imshow("good apple", frame)
 
 cam.release()
 cv2.destroyAllWindows()
